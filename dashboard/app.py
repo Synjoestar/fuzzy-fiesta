@@ -118,7 +118,7 @@ max_date = df["dteday"].max()
 
 with st.sidebar:
     # add capital bikeshare logo
-    st.image("https://raw.githubusercontent.com/fikrionii/Dicoding-Bike-Sharing/main/image/pngwing.com.png")
+
 
     st.sidebar.header("Filter:")
 
@@ -131,7 +131,7 @@ with st.sidebar:
 
 st.sidebar.header("Visit my Profile:")
 
-st.sidebar.markdown("Alfikri Ramadhan")
+st.sidebar.markdown("Syn")
 
 col1, col2 = st.sidebar.columns(2)
 
@@ -214,7 +214,7 @@ fig = px.line(hourly_users_df,
 
 st.plotly_chart(fig, use_container_width=True)
 
-st.caption('Copyright (c), created by Alfikri Ramadhan')
+st.caption('Copyright (c), created by syn')
 
 # ----- HIDE STREAMLIT STYLE -----
 hide_st_style = """
