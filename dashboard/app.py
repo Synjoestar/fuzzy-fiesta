@@ -16,7 +16,7 @@ import streamlit as st
 
 # load dataset
 
-df = pd.read_csv(""https://github.com/Synjoestar/fuzzy-fiesta/blob/7601d97aa755d3d278cdfb29cbfa060d80542cf2/dashboard/cleaned_bikeshare_hour.csv")
+df = pd.read_csv("https://github.com/Synjoestar/fuzzy-fiesta/blob/7601d97aa755d3d278cdfb29cbfa060d80542cf2/dashboard/cleaned_bikeshare_hour.csv")
 df['dteday'] = pd.to_datetime(df['dteday'])
 
 st.set_page_config(page_title="Bike-sharing Dashboard",
